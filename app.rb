@@ -15,8 +15,8 @@ class App < Sinatra::Base
     @blank = ''
     params[:number].to_i.times do
       @blank += params[:phrase]
-      "#{@blank}"
+    end
+    @blank
   end
-end
 
 end
