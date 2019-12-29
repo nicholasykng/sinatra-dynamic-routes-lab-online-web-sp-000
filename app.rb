@@ -30,11 +30,11 @@ class App < Sinatra::Base
     when "add"
       @answer = @number1 + @number2
     when "subtract"
-      @answer = @number1 - @number 2
+      @answer = @number1 - @number2
     when "multiply"
-      @answer = @number 1 * @number 2
+      @answer = @number 1 * @number2
     when "divide"
-      @answer = @number1 / @number 2
+      @answer = @number1 / @number2
     end
   end
 
