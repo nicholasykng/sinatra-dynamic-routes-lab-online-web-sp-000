@@ -37,7 +37,7 @@ class App < Sinatra::Base
       @answer = @number1 / @number 2
     end
   end
-    
+
   end
 
 end
